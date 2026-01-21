@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eyob Ashagire</title>
+    <meta name="description" content="Personal website of Eyob Ashagire" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#top">EA</a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="kicker">Software Engineer</p>
+            <h1>Hey, I’m <span class="accent">Eyob</span>.</h1>
+            <p class="subhead">
+              I build data-driven products and internal tools. Interested in full-stack, forward-deployed,
+              and systems that ship fast.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn primary" href="#projects">See projects</a>
+              <a class="btn" href="#contact">Contact</a>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/EyobAshagire" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/eyobashagire" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="Downloads/Eyob_Ashagire_Resume (2).pdf" target="_blank" rel="noreferrer">Resume</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="avatar" aria-hidden="true"></div>
+            <div class="mini">
+              <p class="mini-title">Currently</p>
+              <p class="mini-text">NYC • building + interviewing</p>
+              <p class="mini-title">Focus</p>
+              <p class="mini-text">Full-stack • data • product velocity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            I’m a software engineer with experience shipping production tools across data + frontend.
+            I like clean UX, pragmatic systems, and measurable impact.
+          </p>
+
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">React</span>
+            <span class="chip">SQL</span>
+            <span class="chip">AWS</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <button class="btn small" id="toggleProjects">Toggle details</button>
+          </div>
+
+          <div class="grid" id="projectsGrid">
+            <article class="card">
+              <h3>Meeting Prep Email Service</h3>
+              <p class="muted">
+                Automated pipeline that builds meeting briefs from data sources and delivers HTML emails.
+              </p>
+              <ul>
+                <li>Data extraction + cleaning</li>
+                <li>Template generation</li>
+                <li>Scheduled orchestration</li>
+              </ul>
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noreferrer">Case study</a>
+                <a href="#" target="_blank" rel="noreferrer">Code</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Portfolio / Research Notes</h3>
+              <p class="muted">
+                Notes on markets, systems design, and learning toward quant readiness.
+              </p>
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noreferrer">Read</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Side Project</h3>
+              <p class="muted">
+                Swap this with whatever you want: a demo, open-source work, or a product idea.
+              </p>
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noreferrer">Demo</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="writing" class="section">
+        <div class="container">
+          <h2>Writing</h2>
+          <div class="list">
+            <a class="list-item" href="#">
+              <span>How I approach data investigations</span>
+              <span class="muted">2026</span>
+            </a>
+            <a class="list-item" href="#">
+              <span>Notes on building fast internal tools</span>
+              <span class="muted">2026</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="muted">Best way to reach me: email.</p>
+          <a class="btn primary" href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Eyob Ashagire</p>
+        <a class="muted" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
