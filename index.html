@@ -80,74 +80,86 @@
         </div>
       </section>
 
+      <!-- PROJECTS SECTION (FULL) -->
       <section id="projects" class="section">
         <div class="container">
           <div class="section-head">
             <h2>Projects</h2>
-            <button class="btn small" id="toggleProjects" style="background-color: white;">Toggle details</button>
+            <button class="btn small" id="toggleProjects">Toggle details</button>
           </div>
 
           <div class="grid" id="projectsGrid">
-            <article class="card">
+            <!-- Row 1: Personal Projects -->
+            <article class="card personal">
               <h3>Exchange Market Health Dashboard</h3>
               <p class="muted">
-                Built a real-time exchange market health monitoring system that ingests live Coinbase WebSocket data and surfaces market quality signals. The system tracks top-of-book metrics, market data freshness, and rolling trade activity to detect stale feeds and abnormal spread behavior in near-real time.
+                Built a real-time exchange market health monitoring system that ingests live Coinbase WebSocket data and surfaces market
+                quality signals. The system tracks top-of-book metrics, market data freshness, and rolling trade activity to detect stale feeds
+                and abnormal spread behavior in near-real time.
               </p>
 
               <p class="muted">
                 Tech: Python (AsyncIO), WebSockets, FastAPI, Next.js, webhook alerting
               </p>
 
-              <!-- Optional links (uncomment + fill in if you have them) -->
-              
               <div class="card-links">
-                <a href="https://player.vimeo.com/video/1160298514" target="_blank" rel="noreferrer" style="font-weight: bold;">Demo</a>
+                <a
+                  href="https://player.vimeo.com/video/1160298514"
+                  target="_blank"
+                  rel="noreferrer"
+                >Demo</a>
               </div>
-             
             </article>
 
-            <article class="card">
+            <article class="card personal">
               <h3>World Flag Quiz</h3>
               <p class="muted">
-                A lightweight web game that quizzes users on world flags with instant feedback and scoring. Built for speed, simplicity, and fun. With a focus on clean UI and smooth gameplay.
+                A lightweight web game that quizzes users on world flags with instant feedback and scoring. Built for speed, simplicity, and
+                fun, with a focus on clean UI and smooth gameplay.
               </p>
-              
+
               <p class="muted">
                 Tech: Bootstrap, Node, Express, and Mongo
               </p>
 
               <div class="card-links">
-                <a href="https://camo.githubusercontent.com/04de59fd6181d2ffd461880f589356f5a8e63d5ef3c07a5b7cde0905099161f3/68747470733a2f2f692e696d6775722e636f6d2f55514c4f7364372e676966" target="_blank" rel="noreferrer" style="font-weight: bold;">Demo</a>
+                <a
+                  href="https://camo.githubusercontent.com/04de59fd6181d2ffd461880f589356f5a8e63d5ef3c07a5b7cde0905099161f3/68747470733a2f2f692e696d6775722e636f6d2f55514c4f7364372e676966"
+                  target="_blank"
+                  rel="noreferrer"
+                >Demo</a>
               </div>
             </article>
 
-            <article class="card">
+            <!-- Row 2: Industry Projects -->
+            <article class="card industry">
               <h3>Meeting Prep Service (Goldman Sachs)</h3>
               <p class="muted">
-                Built and scaled a data-driven meeting preparation system that generates clean, structured summaries for upcoming client meetings. The service pulls data from internal sources, performs validation + cleaning, and formats the output into a consistent template so bankers spend less time searching for information and more time focusing on execution.
+                Built and scaled a data-driven meeting preparation system that generates clean, structured summaries for upcoming client
+                meetings. The service pulls data from internal sources, performs validation + cleaning, and formats the output into a consistent
+                template so bankers spend less time searching for information and more time focusing on execution.
               </p>
-              
+
               <p class="muted">
                 Tech: Python, SQL, Snowflake, Salesforce, HTML email templates
               </p>
-
             </article>
 
-            <article class="card">
+            <article class="card industry">
               <h3>OneGS Referrals Platform (Goldman Sachs)</h3>
               <p class="muted">
-                Built a full-stack internal platform to streamline referral intake and tracking across teams. Focused on creating a clean workflow for users while ensuring the system handled real-world edge cases and remained maintainable as usage scaled.
+                Built a full-stack internal platform to streamline referral intake and tracking across teams. Focused on creating a clean workflow
+                for users while ensuring the system handled real-world edge cases and remained maintainable as usage scaled.
               </p>
 
               <p class="muted">
                 Tech: React/TypeScript, backend services/APIs, Salesforce ecosystem
               </p>
-              
             </article>
-
           </div>
         </div>
-      </section>        
+      </section>
+    
 
       <!-- <section id="contact" class="section">
         <div class="container">
