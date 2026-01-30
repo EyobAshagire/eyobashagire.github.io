@@ -67,6 +67,15 @@ h1{font-size:46px; line-height:1.1; margin:0 0 14px}
 }
 .btn.small{padding:8px 10px; font-size:13px}
 
+.btn.secondary{
+  background: rgba(255,255,255,.08);
+  border-color: rgba(255,255,255,.14);
+  color: var(--text);
+}
+.btn.secondary:hover{
+  background: rgba(255,255,255,.12);
+}
+
 .links{display:flex; gap:14px; color:var(--muted); font-size:14px}
 .links a{border-bottom:1px dotted rgba(167,175,192,.45)}
 .links a:hover{color:var(--text)}
