@@ -68,7 +68,7 @@ h1{font-size:46px; line-height:1.1; margin:0 0 14px}
 .btn.small{padding:8px 10px; font-size:13px}
 
 .btn.secondary{
-  background: rgba(255,255,255,.08);
+  background: rgb(255, 255, 255);
   border-color: rgba(255,255,255,.14);
   color: var(--text);
 }
